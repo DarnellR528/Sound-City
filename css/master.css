@@ -1,0 +1,95 @@
+body{
+  background-color: #190121;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Classes */
+.main_container{
+  margin: 0 auto;
+  height: 975px;
+  width: 75%;
+  z-index: 0;
+}
+
+.logo-img{
+  margin: 50px 0  0;
+}
+
+.rapper-img{
+  position: absolute;
+  margin: 150px 0 0 300px;
+  z-index: 1;
+}
+.bd-design-1{
+  position: absolute;
+  margin: 50px 0 0 1125px;
+  z-index: 1;
+}
+.bd-design-2{
+  position: absolute;
+  margin: 700px 0 0 500px;
+  z-index: 1;
+}
+
+.info-box{
+  position: absolute;
+  margin: 75px 0 0 0;
+  z-index: 2;
+  background-color: #190121;
+  width: 825px;
+  height: 600px;
+}
+
+.title-text{
+  color: #86dc5d;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 3rem;
+  padding: 75px 20px 20px 20px;
+  margin: 15px 5px 5px;
+}
+
+
+.subtitle-text{
+  color: lightgrey;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2rem;
+  padding: 0 20px;
+  margin: 15px 5px 5px;
+}
+
+.para-text{
+  color: dimgrey;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.2rem;
+  padding: 0 225px 0 20px;
+  margin: 50px 5px 5px 5px;
+}
+
+.button-link{
+  text-decoration: none;
+}
+
+.button{
+  background-color: #86dc5d;
+  border: 5px solid;
+  border-style: none;
+  text-align: center;
+  width: 150px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  border-radius: 50px;
+  margin: 50px 25px 5px;
+  padding: 0 20px;
+
+}
+.button:hover{
+  box-shadow: 0 0  15px #86dc5d;
+  color: white;
+}
+
+.signin-text{
+  margin: 0;
+  padding: 13px;
+  font-size: 1.5rem;
+
+}
